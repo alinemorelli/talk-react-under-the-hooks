@@ -20,3 +20,36 @@
 .App-link {
   color: #09d3ac;
 }
+
+.container {
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+  
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 50px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-direction: column;
+}
+
+.actions button {
+  width: 200px;
+  height: 50px;
+  background: yellow;
+  color: #000;
+  border: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
